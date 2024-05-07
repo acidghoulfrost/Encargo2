@@ -1,0 +1,48 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://wallpaperbat.com/img/9727573-sugar-cotton-blue-clouds-vector-design.jpg);
+}
+
+#titulo1{
+    text-align: center;
+}
+
+#navegador {
+    background-color: rgb(0, 171, 228);
+    width: 100%;
+    text-align: center;
+}
+
+#navegador, a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: black;
+}
+
+#navegador a:hover {
+    background-color: rgb(233, 241, 250);
+    border-radius: 5%;
+}
+
+#texto1 {
+    background-color: rgb(0, 171, 228);
+    box-shadow: 0 2px 5px rgb(0, 171, 228);
+
+    padding:  20px;
+    border-radius: 5px;
+
+    display: flex;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+#imagenes {
+    padding: 20px;
+}
+
+#fotocajas {
+    opacity: 70%;
+}
