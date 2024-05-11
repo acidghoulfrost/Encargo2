@@ -32,8 +32,35 @@ body {
     cursor: pointer;
 }
 
-.header .logo img:hover{
+.logo img:hover{
     transform: scale(1.2);
+}
+
+.header .opciones1-links {
+    list-style: none;
+    
+}
+
+.header .opciones1-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .opciones1-links li:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.header .opciones1-links a {
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .opciones1-links li a:hover {
+    color: white;
 }
 
 section {
@@ -53,6 +80,31 @@ section {
 
 #texto1, p {
     margin: 0;
+}
+
+.footer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#texto3 {
+    flex-grow: 1;
+}
+
+.redes{
+    gap: 40px;
+    display: flex;
+}
+
+.redes img{
+    height: 40px;
+    width: auto;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
 }
 
 
