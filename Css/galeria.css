@@ -15,32 +15,68 @@ body{
 }
 
 
-#navegador {
+.header {
     background-color: rgb(0, 171, 228);
-    width: 100%;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
 }
 
-#navegador, a{
+.header .logo img{
+    height: 230px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+
+.header .logo {
+    cursor: pointer;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .opciones1-links {
+    list-style: none;
+    
+}
+
+.header .opciones1-links li{
     display: inline-block;
-    text-decoration: none;
-    padding: 10px 20px;
+    padding: 0 20px;
+}
+
+.header .opciones1-links li:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.header .opciones1-links a {
+    font-size: 700;
     color: black;
+    text-decoration: none;
 }
 
-#navegador a:hover {
-    background-color: rgb(233, 241, 250);
-    border-radius: 5%;
+.header .opciones1-links li a:hover {
+    color: white;
 }
 
-#navegador a:hover {
-    background-color: rgb(233, 241, 250);
-    border-radius: 5%;
+.maincards {
+    position: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
 }
+
 .card {
     position: relative;
     width: 300px;
     height: 350px;
+    cursor: pointer;
 }
 
 .card .face {
@@ -107,12 +143,37 @@ body{
     letter-spacing: 1px;
 }
 
-.card:hover .front{
+.card:onclick .front{
     transform: perspective(600px)
     rotateY(180deg);
 }
 
-.card:hover .back{
+.card:onclick .back{
     transform: perspective(600px)
     rotateY(360deg);
+}
+
+.footer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#texto3 {
+    flex-grow: 1;
+}
+
+.redes{
+    gap: 40px;
+    display: flex;
+}
+
+.redes img{
+    height: 40px;
+    width: auto;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
 }

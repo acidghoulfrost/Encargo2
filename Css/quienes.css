@@ -4,26 +4,61 @@ body {
     background-image: url(https://wallpaperbat.com/img/9727573-sugar-cotton-blue-clouds-vector-design.jpg);
 }
 
+.header {
+    background-color: rgb(0, 171, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo img{
+    height: 230px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+
+.header .logo {
+    cursor: pointer;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .opciones1-links {
+    list-style: none;
+    
+}
+
+.header .opciones1-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .opciones1-links li:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.header .opciones1-links a {
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .opciones1-links li a:hover {
+    color: white;
+}
+
+
+
 #titulo1{
     text-align: center;
-}
-
-#navegador {
-    background-color: rgb(0, 171, 228);
-    width: 100%;
-    text-align: center;
-}
-
-#navegador, a{
-    display: inline-block;
-    text-decoration: none;
-    padding: 10px 20px;
-    color: black;
-}
-
-#navegador a:hover {
-    background-color: rgb(233, 241, 250);
-    border-radius: 5%;
 }
 
 #texto1 {
@@ -39,10 +74,40 @@ body {
     font-size: larger;
 }
 
-#imagenes {
+.imagenes1 {
     padding: 20px;
+    height: 70px;
+    width: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 #fotocajas {
     opacity: 70%;
+}
+
+.footer{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#texto3 {
+    flex-grow: 1;
+}
+
+.redes{
+    gap: 40px;
+    display: flex;
+}
+
+.redes img{
+    height: 40px;
+    width: auto;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
 }

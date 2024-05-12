@@ -9,38 +9,38 @@
     
 </head>
 <body>
-    <nav id="navegador">
-        <a href="inicio.html">Inicio</a>
-        <a href="quienes.html">Quienes Somos</a>
-        <a href="galeria.html">Galeria de fotos</a>
-    </nav>
+    <header class="header">
+        <div class="logo">
+            <img src="imagenes/logo.png" alt="loguito">
+        </div>
+        <nav class="opciones1">
+            <ul class="opciones1-links">
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="quienes.html">Quienes Somos</a></li>
+                <li><p href="galeria.html">Galeria de fotos</a></li>
+            </ul>
+        </nav>
+    </header>
    
-
+<div class="maincards">
     <div class="card">
         <div class="face front">
             <img src="imagenes/gale1.jpg" alt="">
             <h3>Caja Pequeña</h3>
-
-
         </div>
         <div class="face back">
             <h3>Caja Pequeña</h3>
-            <p>
-                Valor:2000
-            </p>
+                <p>Valor:2000</p>
+
             <div class="link">
                 <a href="#">Details</a>
             </div>
-
         </div>
-
     </div>
     <div class="card">
         <div class="face front">
             <img src="imagenes/gale2.jpg" alt="">
             <h3>Caja Mediana</h3>
-
-
         </div>
         <div class="face back">
             <h3>Caja Mediana</h3>
@@ -50,16 +50,12 @@
             <div class="link">
                 <a href="#">Details</a>
             </div>
-
         </div>
-
     </div>
     <div class="card">
         <div class="face front">
             <img src="imagenes/gale3.jpg" alt="">
             <h3>Caja Grande</h3>
-
-
         </div>
         <div class="face back">
             <h3>Caja Grande</h3>
@@ -111,10 +107,14 @@
         </div>
 
     </div>
-    <footer>
+</div>
+    <hr>
+    <footer class="footer">
         <p id="texto3">Lucas Rodriguez, Cristobal Asencio @Copyrigth Derechos reservados.</p>
-        <img width="50" height="50" src="imagenes/whatsapp.png">
-        <img width="40" height="40" src="imagenes/facebook.png">
+        <div class="redes">
+            <img src="imagenes/whatsapp.png" alt="redwsp">
+            <img src="imagenes/facebook.png" alt="redfacebook">
+        </div>
     </footer>
 </body>
 </html>
