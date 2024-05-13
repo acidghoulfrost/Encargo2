@@ -66,11 +66,6 @@ body{
     color: white;
 }
 
-.maincards {
-    position: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
 
 .card {
     position: relative;
@@ -143,12 +138,12 @@ body{
     letter-spacing: 1px;
 }
 
-.card:onclick .front{
+.card:hover .front{
     transform: perspective(600px)
     rotateY(180deg);
 }
 
-.card:onclick .back{
+.card:hover .back{
     transform: perspective(600px)
     rotateY(360deg);
 }

@@ -17,8 +17,8 @@ body{
 }
 
 .slider-box{
-    width: 800px;
-    height: 750px;
+    width: 300px;
+    height: 250px;
     margin: 10px auto 0;
     overflow: hidden;
 }
