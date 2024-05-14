@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Veguita - Dejanos tu opinion</title>
     <link rel="stylesheet" href="Css/opinion.css">
+    <script src="Js/validacion.js"></script>
 
 </head>
 <body>
@@ -34,13 +35,14 @@
         </div>
 
         <div class="textarea">
-            <textarea name="message" rows="10" cols="30">
+            <textarea id="areatexto" name="message" rows="10" cols="30">
             Cuentanos como ha sido
                 tu experiencia!
             </textarea>
         </div>
-        <button class="enviar" href="#">Solicitar pedido</button>
+        <button type="submit" onclick='enviarFormulario()' value="enviar"></button>
     </form>
+    <div id="error"></div>
     </div>
 
 
