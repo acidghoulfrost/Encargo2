@@ -1,13 +1,12 @@
-var tipoopinion = document.getElementById('tipoopinion');
-var textarea = document.getElementById("areatexto");
-var error = document.getElementById("error")
-error.style.color = 'red';
+function enviarFormulario() {
+    var areatexto = document.getElementById("areatexto");
+    var error = document.getElementById("error");
 
-function enviarFormulario(){
-    console.log('Enviando formulario..');
-
-    var MensajesError = [];
-
-    if(textarea.value === null || tipoopinion === ''){}
-        MensajesError.push('El texto no debe estar vacio!')
+    if (areatexto.value.trim() === '') {
+        error.innerHTML = "Debe ingresar texto!";
+        return false;
+    } else {
+        error.innerHTML = "";
+        return true;
+    }
 }
