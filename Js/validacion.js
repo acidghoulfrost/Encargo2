@@ -3,10 +3,9 @@ function validarOpinion() {
     var error = document.getElementById("error");
 
     if (areatexto.value.trim() === '') {
-        error.innerHTML = "Debe ingresar texto!";
+        alert("Se debe ingresar texto!!")
         return false;
     } else {
-        error.innerHTML = "";
         return true;
     }
 }

@@ -23,10 +23,10 @@
                 <li><a href="galeria.html">Galeria de fotos</a></li>
             </ul>
         </nav>
-    </header>
+        <a href="solicitar.html" class="btn"><button>Solicitar</button></a>
     <div class="center">
-        <h1>Tu opinion vale demasiado</h1>
-    <form method="post">
+        <h2>Tu opinion vale demasiado</h2>
+    <form class="form" onsubmit="return validarOpinion();">
         <div class="tipo">
             <label for="tipoopinion">Servicio:</label>
             <select id="tipoopinion" name="tipoopinion">
@@ -41,9 +41,7 @@
                 tu experiencia!
             </textarea>
         </div>
-        <input type="submit" onclick="return validarOpinion();" value="enviar">
+        <button class="enviar">Solicitar pedido</button>
     </form>
-    <div id="error"></div>
-    </div>
 </body>
 </html>

@@ -97,16 +97,8 @@ body {
 }
 
 
-.imagencaja1 {
-    height: 70px;
-    width: auto;
-    display: grid;
+.imagencaja2 img {
+    height: 300px;
+    width: auto;;
+    float: right;
 }
-
-.imagencaja2 {
-    height: 20px;
-    width: auto;
-    display: grid;
-}
-
-.
