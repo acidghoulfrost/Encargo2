@@ -20,94 +20,111 @@
                 <li><p href="galeria.html">Galeria de fotos</a></li>
             </ul>
         </nav>
-        <a href="solicitar.html" class="btn"><button>Solicitar</button></a>
     </header>
    
-<div class="maincards">
-    <div class="card">
-        <div class="face front">
-            <img src="imagenes/gale1.jpg" alt="">
-            <h3>Caja Pequeña</h3>
-        </div>
-        <div class="face back">
-            <h3>Caja Pequeña</h3>
-                <p>Valor:2000</p>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="face front">
-            <img src="imagenes/gale2.jpg" alt="">
-            <h3>Caja Mediana</h3>
-        </div>
-        <div class="face back">
-            <h3>Caja Mediana</h3>
-            <p>
-                Valor:4000
-            </p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
-        </div>
-    </div>
-    <div class="card">
-        <div class="face front">
-            <img src="imagenes/gale3.jpg" alt="">
-            <h3>Caja Grande</h3>
-        </div>
-        <div class="face back">
-            <h3>Caja Grande</h3>
-            <p>
-                Valor:6000
-            </p>
-            <div class="link">
-                <a href="#">Details</a>
-            </div>
+    <title>Galeria de fotos </title>
+  </head>
+  <body>
+
+    <div class="row m-5">
+        <div class="col-lg-4 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImagen1">
+                <img class="w-100 mb-4 rounded" src="./imagenes/gale1.jpg" alt="">
+            </a>
 
         </div>
+        <div class="col-lg-3 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImagen2">
+                <img class="w-100 mb-4 rounded" src="./imagenes/gale2.jpg" alt="">
+            </a>
+
+        </div>
+        <div class="col-lg-3 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImagen3">
+                <img class="w-100 mb-4 rounded" src="./imagenes/gale3.jpg" alt="">
+            </a>
+        </div>
+        <div class="col-lg-3 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImagen4">
+                <img class="w-100 mb-4 rounded" src="./imagenes/gale4.jpg" alt="">
+            </a>
+
+        </div>
+        <div class="col-lg-2 mb-4">
+            <a href="#!" data-bs-toggle="modal" data-bs-target="#modalImagen5">
+                <img class="w-100 mb-4 rounded" src="./imagenes/gale5.jpg" alt="">
+            </a>
+
+        </div>
+
 
     </div>
-    <div class="card">
-        <div class="face front">
-            <img src="imagenes/gale4.jpg" alt="">
-            <h3>Sobre pequeño</h3>
 
-
-        </div>
-        <div class="face back">
-            <h3>Sobre pequeño</h3>
-            <p>
-                Valor:1000
-            </p>
-            <div class="link">
-                <a href="#">Details</a>
+    <div
+        tabindex="-1" aria-labelledby="modalImagen1" aria-hidden="true"
+        class="modal fade" id="modalImagen1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./imagenes/gale1.jpg" alt="">
             </div>
 
         </div>
 
+
     </div>
-    <div class="card">
-        <div class="face front">
-            <img src="imagenes/gale5.jpg" alt="">
-            <h3>Sobre Grande</h3>
-
-
-        </div>
-        <div class="face back">
-            <h3>Sobre Grande</h3>
-            <p>
-                Valor:1500
-            </p>
-            <div class="link">
-                <a href="#">Details</a>
+    <div
+        tabindex="-1" aria-labelledby="modalImagen1" aria-hidden="true"
+        class="modal fade" id="modalImagen2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./imagenes/gale2.jpg" alt="">
             </div>
 
         </div>
 
+
     </div>
+    <div
+        tabindex="-1" aria-labelledby="modalImagen1" aria-hidden="true"
+        class="modal fade" id="modalImagen3">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./imagenes/gale3.jpg" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+    <div
+        tabindex="-1" aria-labelledby="modalImagen1" aria-hidden="true"
+        class="modal fade" id="modalImagen4">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./imagenes/gale4.jpg" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+    <div
+        tabindex="-1" aria-labelledby="modalImagen1" aria-hidden="true"
+        class="modal fade" id="modalImagen5">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <img src="./imagenes/gale5.jpg" alt="">
+            </div>
+
+        </div>
+
+
+    </div>
+ 
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </div>
     <hr>
     <footer class="footer">
