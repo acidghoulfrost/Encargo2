@@ -15,7 +15,7 @@
     align-items: center;
     height: 60px;
     padding: 5px 10%;
-    box-shadow: 0 2px 30px rgb(47, 47, 47);
+    box-shadow: 0 2px 35px rgb(43, 43, 43);
 }
 
 .header .logo img{
@@ -58,6 +58,24 @@
 
 .header .opciones1-links li a:hover {
     color: white;
+}
+
+.header .btn button {
+    font-weight: 700;
+    color: red;
+    padding: 9px 25px;
+    background: yellow;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.header .btn button:hover {
+    background-color: black;
+    color: blue;
+    transform: scale(1.1);
 }
 
 body {
