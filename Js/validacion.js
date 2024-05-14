@@ -1,4 +1,4 @@
-function enviarFormulario() {
+function validarOpinion() {
     var areatexto = document.getElementById("areatexto");
     var error = document.getElementById("error");
 
@@ -11,7 +11,7 @@ function enviarFormulario() {
     }
 }
 
-function validarFormulario(){
+function validarSolicitud(){
 
     var nombre,apellido;
     nombre =document.getElementById("nombre").value;

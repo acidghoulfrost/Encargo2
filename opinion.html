@@ -6,6 +6,7 @@
     <title>La Veguita - Dejanos tu opinion</title>
     <link rel="stylesheet" href="Css/opinion.css">
     <script src="Js/validacion.js"></script>
+    <script src="Js/api.js"></script>
 
 </head>
 <body>
@@ -40,9 +41,10 @@
                 tu experiencia!
             </textarea>
         </div>
-        <input type="submit" onclick="return enviarFormulario()" value="enviar">
+        <input type="submit" onclick="return validarOpinion();" value="enviar">
     </form>
     <div id="error"></div>
+    <div id="gallery"></div>
     </div>
 
 
