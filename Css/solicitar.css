@@ -4,15 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "DM Serif Display", serif;
-    font-size: 20px;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
     background-color: rgb(245, 245, 220);
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
 
@@ -69,7 +65,7 @@ body {
 }
 
 .form {
-    width: 50%;
+    width: 30%;
     margin: 0 auto;
     text-align: center;
 }
@@ -79,12 +75,38 @@ body {
 .selectpaquete,
 .textdetalle,
 .enviar {
-    margin: 10px 0;
+    margin: 30px 0;
+    padding: 13px;
 }
 
-form {
+.form {
     background-color: rgb(0, 171, 228);
     border-radius: 50px;
     box-shadow: 0 2px 35px rgb(43, 43, 43);
 }
 
+.enviar {
+    font-weight: 700;
+    color: rgb(0, 171, 228);
+    padding: 9px 25px;
+    background: rgb(245, 245, 220);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+.imagencaja1 {
+    height: 70px;
+    width: auto;
+    display: grid;
+}
+
+.imagencaja2 {
+    height: 20px;
+    width: auto;
+    display: grid;
+}
+
+.

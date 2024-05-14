@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
 body {
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,8 +84,8 @@ body {
 }
 
 #texto1 {
-    background-color: rgb(0, 171, 228);
-    box-shadow: 0 2px 5px rgb(0, 0, 0);
+    background-color: rgb(245, 245, 220);
+    box-shadow: 0 2px 5px rgb(87, 87, 87);
 
     padding:  20px;
     border-radius: 5px;
@@ -93,13 +96,18 @@ body {
     font-size: larger;
 }
 
-.imagenes1 {
-    padding: 20px;
+.imagenes1 a {
+        padding: 20px;
+        display: inline-flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+}
+
+.imagenes1 img {
     height: 70px;
     width: auto;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
+
 }
 
 #fotocajas {
@@ -110,7 +118,7 @@ body {
     justify-content: space-between;
     display: flex;
     align-items: center;
-    padding: 10px;
+    border-radius: 20px;
 }
 
 #texto3 {
@@ -124,9 +132,23 @@ body {
 
 .redes img{
     height: 40px;
-    width: auto;
+    width: 40px;
 }
 
-.redes img:hover {
-    transform: scale(1.2);
+.redes button {
+    font-weight: 700;
+    color: rgb(0, 171, 228);
+    padding: 9px 25px;
+    background: rgb(245, 245, 220);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.redes button:hover {
+    background-color: rgb(245, 245, 220);
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
 }
