@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Serif Display", serif;
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(245, 245, 220);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.header {
+    background-color: rgb(0, 171, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 5px 10%;
+    box-shadow: 0 2px 30px rgb(47, 47, 47);
+}
+
+.header .logo img{
+    height: 230px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+
+.header .logo {
+    cursor: pointer;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .opciones1-links {
+    list-style: none;
+    
+}
+
+.header .opciones1-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .opciones1-links li:hover {
+    transform: scale(1.1);
+    border-radius: 30px;
+    border-style: solid;
+    border-color: white;
+}
+
+.header .opciones1-links a {
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .opciones1-links li a:hover {
+    color: white;
+}
+
+.form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgb(0, 171, 228);
+    border-radius: 10px;
+}
