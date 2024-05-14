@@ -10,3 +10,19 @@ function enviarFormulario() {
         return true;
     }
 }
+
+function validarFormulario(){
+
+    var nombre,apellido;
+    nombre =document.getElementById("nombre").value;
+    apellido =document.getElementById("apellido").value;
+
+    if(nombre ===""){
+        alert("El campo nombre esta vacio")
+    }
+    else if(apellido ===""){
+        alert("El campo apellido esta vacio")
+        return false;
+    }
+
+}
