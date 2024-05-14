@@ -1,0 +1,13 @@
+
+#watch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgb(0, 171, 228);
+    color: rgb(0, 171, 228);
+    border-radius: 50%;
+    font-family: monospace;
+    font-size: 1rem;
+}
