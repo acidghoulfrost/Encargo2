@@ -1,20 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "DM Serif Display", serif;
+    font-family: "Roboto", sans-serif;
     font-size: 20px;
 }
-
-body {
-    background-color: rgb(245, 245, 220);
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 
 .header {
     background-color: rgb(0, 171, 228);
@@ -68,3 +60,46 @@ body {
     color: white;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 220);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: rgb(0, 171, 228);
+    border-radius: 10px;
+    box-shadow: 0 2px 30px rgb(47, 47, 47);
+}
+
+.center h1 {
+    text-align: center;
+    padding: 0 0 20px 0px;
+    border-bottom: 1px solid silver;
+}
+
+.center form {
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.tipo,
+.textarea,
+.enviar {
+    margin: 35px auto;
+    display: block;
+    width: 80%;
+}
+
+
+.enviar {
+    border-radius: 50px;
+    background-color: rgb(245, 245, 220);
+}

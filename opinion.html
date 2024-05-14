@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Veguita - Dejanos tu opinion</title>
+    <link rel="stylesheet" href="Css/opinion.css">
 
 </head>
 <body>
@@ -21,19 +22,26 @@
             </ul>
         </nav>
     </header>
-    <form>
-        <label for="tipoopinion">Elija el tipo de servicio:</label>
-        <select id="tipoopinion" name="tipoopinion">
-            <option value="Sitio web">Sitio web</option>
-            <option value="Servicio">Recepción de paquetes</option>
-        </select>
+    <div class="center">
+        <h1>Tu opinion vale demasiado</h1>
+    <form method="post">
+        <div class="tipo">
+            <label for="tipoopinion">Servicio:</label>
+            <select id="tipoopinion" name="tipoopinion">
+                <option value="Sitio web">Sitio web</option>
+                <option value="Servicio">Recepción de paquetes</option>
+            </select>
+        </div>
 
-        <textarea name="message" rows="10" cols="30">
-            Cuentanos como ha sido tu experiencia!
-        </textarea>
-
-        <button class="enviar">Solicitar pedido</button>
+        <div class="textarea">
+            <textarea name="message" rows="10" cols="30">
+            Cuentanos como ha sido
+                tu experiencia!
+            </textarea>
+        </div>
+        <button class="enviar" href="#">Solicitar pedido</button>
     </form>
+    </div>
 
 
 
