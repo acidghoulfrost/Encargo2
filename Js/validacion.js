@@ -1,0 +1,1 @@
+var tipoopinion = document.getElementById('tipoopinion');
